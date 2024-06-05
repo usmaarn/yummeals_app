@@ -1,0 +1,9 @@
+.idea
+.svelte-kit
+.prettierrrc
+.gitignore
+.dockerignore
+.prettierrc
+eslint.config.js
+Dockerfile
+.vscode
