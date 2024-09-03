@@ -1,0 +1,18 @@
+
+
+services:
+  app:
+    build:
+      context: .
+    container_name: yummeals_waitlist
+    ports:
+      - "3007:3000"
+    networks:
+      - yummeals
+    volumes:
+      - .:/app
+      - /app/node_modules
+
+networks:
+  yummeals:
+    external: true

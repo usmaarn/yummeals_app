@@ -7,3 +7,4 @@
 eslint.config.js
 Dockerfile
 .vscode
+node_modules
